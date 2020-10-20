@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
+
+#heading {
+  height: 210px;
+  background-color: gray;
+  background-image: linear-gradient(to bottom right, #44434a, #2d2c30); 
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  right: 0px;
+  text-align:center;
+  margin:auto;
+  color:#aea;
+  font-size:80px;
+  font-weight:100;
+  padding-top:120px;
+}
+
+body {
+  background: #111115; //url(vibemc_logo.png);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-repeat:no-repeat;
+  background-position: left top;
+  background-attachment: absolute;
+  background-size: 50px;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+  color: #aea;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 0;
+}
+
+div.staffp {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 0 10px;
+  border-radius: 7px;
+  background-color: #ddd;
+  width: 110px;
+}
+
+.clearBoth {
+  clear:both;
+}
+
+#hnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 300;
+  top: 0;
+  right: 0;
+  overflow: hidden
+}
+
+#hnav li {
+  /*display: inline;*/
+  float: left;
+}
+
+#hnav li a {
+  display: block;
+  padding: 13px;
+  text-decoration: none;
+  color: #aea;
+  transition: 0.3s;
+}
+
+#hnav li a:hover {
+  background-color: #222;
+}
+
+#fnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#fnav li {
+  display: inline;
+}
+
+
+.wrapper {
+  margin: 0 auto;
+  margin-top: 400px;
+  width: 700px; 
+}
+
+.box {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.rulesList {
+  list-style: none;
+  counter-reset: rlcounter;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.rulesList li {
+  counter-increment: rlcounter;
+}
+
+.rulesList li::before {
+  content: counter(rlcounter) " ";
+  color: #aea;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+#footer {
+  margin: 0;
+  margin-top: 100px;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    width: 95%;
+    margin: 0;
+    margin-top: 400px;
+  }
+  #heading {
+    font-size: 50px;
+  }
+}
+
+
+
