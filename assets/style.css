@@ -17,7 +17,7 @@
 }
 
 body {
-  background: #111115; //url(vibemc_logo.png);
+  background: #111115, url(va_transparent.png);
   font-family: 'Roboto', sans-serif;
   color: white;
   background-repeat:no-repeat;
