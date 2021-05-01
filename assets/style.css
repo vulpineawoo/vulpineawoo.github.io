@@ -103,13 +103,14 @@ div.staffp {
 .wrapper {
   margin: 0 auto;
   margin-top: 400px;
-  width: 700px; 
+  max-width: 700px; 
 }
 
 .box {
   background-color: #333;
   padding: 10px;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .rulesList {
@@ -138,7 +139,7 @@ div.staffp {
   text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   .wrapper {
     width: 95%;
     margin: 0;
@@ -146,6 +147,9 @@ div.staffp {
   }
   #heading {
     font-size: 50px;
+  }
+  #hnav {
+    display: none;
   }
 }
 
