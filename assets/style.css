@@ -50,7 +50,6 @@ div.staffp {
   margin-right: 5px;
   margin-bottom: 5px;
   padding: 0 10px;
-  border-radius: 7px;
   background-color: #ddd;
   width: 110px;
 }
@@ -81,7 +80,7 @@ div.staffp {
   padding: 13px;
   text-decoration: none;
   color: #f71;
-  transition: 0.3s;
+  background-color: #111115;
 }
 
 #hnav li a:hover {
@@ -110,7 +109,6 @@ div.staffp {
 .box {
   background-color: #333;
   padding: 10px;
-  border-radius: 10px;
   margin-bottom: 10px;
 }
 
