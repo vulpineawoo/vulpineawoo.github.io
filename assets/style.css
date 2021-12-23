@@ -3,7 +3,14 @@
   font-style: normal;
   font-weight: 100;
   font-display: swap;
-  src: url(roboto.ttf) format('truetype');
+  src: url(roboto-100.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(roboto-300.ttf) format('truetype');
 }
 
 #heading {
